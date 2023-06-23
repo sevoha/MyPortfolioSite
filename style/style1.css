@@ -1,0 +1,118 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body .title {
+    font-weight: 600;
+    font-size: 3.2em;
+    text-align: center;
+    background-color: #868585;
+    /* border: 6px solid #333333; */
+    font-family: 'Ubuntu'
+}
+
+.logo {
+    height: 12vmin;
+    pointer-events: none;
+}
+
+.myavatar {
+    margin-top: 70px;
+}
+
+
+#about {
+    /* background-color: #5AA9E6; */
+    padding: 75px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+#experience {
+    /* background-color: #033F63; */
+    padding: 75px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+#exp1 {
+    padding: 25px;
+}
+
+#exp2 {
+    padding: 25px;
+}
+
+#portfolio {
+    /* background-color: #0EAD69; */
+    padding: 75px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+#links {
+    /* background-color: #FFFFFF; */
+    padding: 75px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+#contact {
+    /* background-color: #5AA9E6; */
+    padding: 75px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.portfolio-imgs {
+    height: 300px;
+    width:300px;
+}
+
+/* Style all font awesome icons */
+.fab,
+.fas {
+    padding: 20px;
+    font-size: 60px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+} 
+
+
+/* Add a hover effect if you want */
+.fas:hover,
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    color: #211F2F;
+}
+
+.fa-linkedin {
+    color: #211F2F;
+}
+
+.fa-square-envelope {
+    color: #211F2F;
+}
+
+.fa-file-circle-check {
+    color: #211F2F;
+}
+.h1 {
+    font-size: 65px;
+    padding-bottom: 40px;
+}
+h2 {
+    padding-top: 20px;
+}
