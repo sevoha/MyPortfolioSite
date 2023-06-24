@@ -28,7 +28,7 @@ document.getElementById("toContact").addEventListener("click", function () {
     behavior: "smooth",
   });
 });
-
+// Form va;idation 
 function form() {
   let name = document.getElementById("fullname").value;
   let email = document.getElementById("email").value;
